@@ -85,7 +85,7 @@ header{
 .question-title h6{
 	color: blue;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: .8em;
 	position: absolute;
 	bottom: 0;
 }
