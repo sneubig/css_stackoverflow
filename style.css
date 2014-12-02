@@ -7,15 +7,24 @@ body, html{
 	height: 100%;
 }
 
-h3, h5{
+h3, h5, h6{
 	margin: 0;
 }
 
 /***** Header *****/
 header{
 	width: 100%;
-	height: 7%;
+	height: 5%;
 	background-color: #000;
+}
+
+.hd-searchbar{
+	width: 20%;
+	height: 70%;
+	background-color: white;
+	position: relative;
+	top: 15%;
+	left: 70%;
 }
 
 /***** Main Container *****/
@@ -28,12 +37,15 @@ header{
 	position: absolute;
 	top: 10%;
 	left: 10%;
+	display: block;
 }
 
 .question-row{
 	width: 100%;
 	height: 12%;
 	border: 1px solid black;
+	position: relative;
+	display: block;
 }
 
 .mini-box{
@@ -41,7 +53,7 @@ header{
 	height: 10%;
 	text-align: center;
 	position: relative;
-	top: 2%;
+	top: 20%;
 }
 
 .votes{
@@ -62,6 +74,22 @@ header{
 	color: #bbb;
 }
 
+.question-title{
+	width: 70%;
+	height: 50%;
+	position: absolute;
+	left: 30%;
+	border: 1px solid black;
+}
+
+.question-title h6{
+	color: blue;
+	font-weight: bold;
+	font-size: 1em;
+	position: absolute;
+	bottom: 0;
+}
+
 
 /***** Right Sidebar *****/
 
@@ -73,6 +101,7 @@ header{
 	position: absolute;
 	top: 10%;
 	right: 10%;
+	display: block;
 }
 
 .rs-top{
