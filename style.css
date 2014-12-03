@@ -74,6 +74,11 @@ header{
 	bottom: 10%;
 }
 
+.nav-options:last-child{
+	position: absolute;
+	right: 0;
+}
+
 .nav-options h3{
 	color: white;
 }
@@ -86,7 +91,7 @@ header{
 	min-width: 35em;
 	height: 80%;
 	position: absolute;
-	top: 20%;
+	top: 22%;
 	left: 10%;
 	display: block;
 }
@@ -100,13 +105,15 @@ header{
 }
 
 .question-row:first-child{
-	height: 10%;
+	height: 8%;
 	border: none;
 }
 
 .top-questions{
 	width: 50%;
 	height: 100%;
+	display: inline-block;
+	border-bottom: 1px solid #aaa;
 }
 
 .top-questions h3{
@@ -114,6 +121,27 @@ header{
 	top: 1em;
 }
 
+.interesting-box{
+	width: 15%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	display: inline-block;
+	border: 1px solid #aaa;
+	border-bottom: none;
+}
+
+.interesting-box h6{
+	font-weight: normal;
+	font-size: 1em;
+	position: absolute;
+	bottom: .2em;
+	left: 1em;
+}
+
+.question-row:nth-child(2){
+	border-top: none;
+}
 .mini-box{
 	width: 10%;
 	height: 10%;
