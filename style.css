@@ -7,7 +7,7 @@ body, html{
 	height: 100%;
 }
 
-h1, h3, h5, h6{
+h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
 
@@ -15,9 +15,40 @@ h1, h3, h5, h6{
 header{
 	width: 100%;
 	height: 5%;
+	min-height: 2em;
 	background-color: #000;
 }
 
+.hd-left{
+	height: 100%;
+	width: 30%;
+	position: absolute;
+	left: 10%;
+	display: inline-block;
+}
+.stackexchange{
+	height: 90%;
+	width: 60%;
+	position: relative;
+	top: .5em;
+}
+
+.stackexchange h4{
+	font-size: .8em;
+	display: inline-block;
+}
+.stackexchange h4:first-child{
+	color: white;
+}
+
+.stackexchange h4:nth-child(2){
+	color: blue;
+}
+
+.down-arrow{
+	width: 1em;
+	padding: 1em;
+}
 .hd-searchbar{
 	width: 20%;
 	height: 70%;
@@ -48,6 +79,43 @@ header{
 	height: 40%;
 	border: 3px solid #aaa;
 	border-top: none;
+	position: relative;
+	top: 25%;
+}
+
+.so-logo-rectangle{
+	width: 50%;
+	height: 5%;
+	z-index: 2;
+}
+
+.so-logo-rectangle:first-child{
+	background-color: orange;
+}
+
+.so-logo-rectangle:nth-child(2){
+	background-color: #FFC561;
+}
+
+.so-logo-rectangle:nth-child(3){
+	background-color: #CF8600;
+}
+
+.so-logo-rectangle:nth-child(4){
+	background-color: #BFA373;
+}
+
+.so-logo-rectangle:nth-child(5){
+	background-color: brown;
+	position: relative;
+	left: 15%;
+	top: 55%;
+	transform: skewX(-60deg);
+	transform: translateY(-5px);
+}
+
+.so-logo-rectangle:last-child{
+	background-color: #aaa;
 	position: relative;
 	top: 50%;
 }
@@ -81,6 +149,8 @@ header{
 
 .nav-options h3{
 	color: white;
+	font-weight: normal;
+	font-size: 1em;
 }
 
 
