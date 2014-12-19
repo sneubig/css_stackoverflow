@@ -16,7 +16,7 @@ header{
 	width: 100%;
 	height: 5%;
 	min-height: 2em;
-	background-color: #000;
+	background-color: #222;
 }
 
 /***** Left Header *****/
@@ -60,6 +60,14 @@ header{
 	/*bottom: 34.8em;*/
 	float: left;
 }
+
+.hd-left img{
+	position: relative;
+	top: -1.5em;
+	left: 8em;
+}
+
+
 
 /***** Right Header *****/
 
@@ -135,13 +143,22 @@ header{
 	top: 15%;
 }
 
+.hd-searchbar img{
+	width: 1em;
+	height: 1em;
+	position: relative;
+	top: .4em;
+
+	display: inline-block;
+}
+
 .hd-searchbar h6{
 	color: #ccc;
 	position: relative;
-	left: 1em;
 	top: .2em;
 	font-size: .9em;
 	font-weight: normal;
+	display: inline-block;
 }
 
 /**** Page Container ******/
