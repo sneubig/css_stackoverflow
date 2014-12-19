@@ -228,7 +228,7 @@ header{
 	display: block;
 	float: left;
 	position: relative;
-	top: 6em;
+	top: 7em;
 	margin-right: 2%;
 }
 
@@ -388,6 +388,21 @@ header{
 	bottom: 0;
 }
 
+.posted-by{
+	position: absolute;
+	right: 0;
+	bottom: 1em;
+	color: #aaa;
+	font-size: .8em;
+}
+
+.posted-by span:first-child{
+	color: #07d;
+}
+
+.posted-by span:nth-child(2){
+	color: #000;
+}
 
 /***** Right Sidebar *****/
 
