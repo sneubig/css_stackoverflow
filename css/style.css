@@ -475,6 +475,17 @@ header{
 	font-size: .75em;
 }
 
+.rs-bottom span:first-child{
+	font-weight: bold;
+	color: #000;
+	display: block;
+}
+
+.rs-bottom span:nth-child(2){
+	font-weight: normal;
+	color: #000;
+}
+
 .rs-bottom-title{
 	width: 100%;
 	height: 30%;
