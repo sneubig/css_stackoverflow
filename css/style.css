@@ -134,44 +134,44 @@ header{
 
 .so-logo-rectangle{
 	width: 50%;
-	height: .25em;
+	height: .27em;
 	z-index: 2;
 }
 
 .so-logo-rectangle:first-child{
-	background-color: orange;
+	background-color: #F78E31;
 	position: relative;
-	left: 50%;
-	top: 26%;
+	left: 60%;
+	top: 32%;
 	transform: rotate(60deg);
 }
 
 .so-logo-rectangle:nth-child(2){
-	background-color: #FFC561;
+	background-color: orange;
 	position: relative;
-	left: 35%;
-	top: 32%;
-	transform: rotate(35deg);
+	left: 43%;
+	top: 33%;
+	transform: rotate(45deg);
 }
 
 .so-logo-rectangle:nth-child(3){
-	background-color: #CF8600;
+	background-color: #FFC561;;
 	position: relative;
-	left: 27%;
-	top: 38%;
-	transform: rotate(20deg);
+	left: 32%;
+	top: 37%;
+	transform: rotate(27deg);
 }
 
 .so-logo-rectangle:nth-child(4){
-	background-color: #BFA373;
+	background-color: #E8BE76;
 	position: relative;
-	left: 25%;
+	left: 26%;
 	top: 42%;
-	transform: rotate(10deg);
+	transform: rotate(15deg);
 }
 
 .so-logo-rectangle:nth-child(5){
-	background-color: brown;
+	background-color: #BFA373;
 	position: relative;
 	left: 25%;
 	top: 47%;
