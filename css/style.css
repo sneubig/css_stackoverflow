@@ -23,9 +23,10 @@ header{
 .hd-left{
 	height: 100%;
 	width: 30%;
-	position: absolute;
-	left: 10%;
 	display: inline-block;
+	float: left;
+	position: relative;
+	left: 10%;
 }
 .stackexchange{
 	height: 90%;
@@ -43,7 +44,7 @@ header{
 }
 
 .stackexchange h4:nth-child(2){
-	color: blue;
+	color: #07d;
 }
 
 .down-arrow{
@@ -54,8 +55,10 @@ header{
 	border-top: .3em solid #aaa;
 	display: inline-block;
 	position: relative;
-	left: 6.4em;
-	bottom: 34.8em;
+	bottom: 1em;
+	left: 7em;
+	/*bottom: 34.8em;*/
+	float: left;
 }
 
 /***** Right Header *****/
@@ -64,6 +67,10 @@ header{
 	height: 100%;
 	width: 40%;
 	display: inline-block;
+	float: right;
+	position: relative;
+	right: 10%;
+
 }
 .help-button{
 	width: 10%;
@@ -75,9 +82,9 @@ header{
 	width: 20%;
 	height: 70%;
 	background-color: white;
+	float: right;
 	position: relative;
 	top: 15%;
-	left: 70%;
 }
 
 .hd-searchbar h6{
@@ -92,6 +99,7 @@ header{
 /**** Page Container ******/
 .page-container{
 	width: 90%;
+	min-width: 45em;
 	height: 100%;
 	position: absolute;
 	left: 10%;
@@ -115,48 +123,65 @@ header{
 }
 
 .so-logo-box{
-	width: 100%;
-	height: 40%;
+	width: 80%;
+	height: 30%;
 	border: 3px solid #aaa;
 	border-top: none;
 	position: relative;
-	top: 20%;
+	top: 30%;
+	left: 10%;
 }
 
 .so-logo-rectangle{
 	width: 50%;
-	height: 5%;
+	height: .25em;
 	z-index: 2;
 }
 
 .so-logo-rectangle:first-child{
 	background-color: orange;
+	position: relative;
+	left: 50%;
+	top: 26%;
+	transform: rotate(60deg);
 }
 
 .so-logo-rectangle:nth-child(2){
 	background-color: #FFC561;
+	position: relative;
+	left: 35%;
+	top: 32%;
+	transform: rotate(35deg);
 }
 
 .so-logo-rectangle:nth-child(3){
 	background-color: #CF8600;
+	position: relative;
+	left: 27%;
+	top: 38%;
+	transform: rotate(20deg);
 }
 
 .so-logo-rectangle:nth-child(4){
 	background-color: #BFA373;
+	position: relative;
+	left: 25%;
+	top: 42%;
+	transform: rotate(10deg);
 }
 
 .so-logo-rectangle:nth-child(5){
 	background-color: brown;
 	position: relative;
-	left: 15%;
-	top: 55%;
-	transform: skewX(-60deg);
-	transform: translateY(-5px);
+	left: 25%;
+	top: 47%;
+	transform: rotate(5deg);
 }
 
-.so-logo-rectangle:last-child{
-	background-color: #aaa;
+.so-logo-rectangle:nth-child(6){
+	background-color: grey;
 	position: relative;
+	left: 25%;
 	top: 50%;
 }
 
@@ -199,11 +224,12 @@ header{
 
 .main-container{
 	width: 70%;
-	min-width: 35em;
 	height: 80%;
-	position: absolute;
-	top: 22%;
 	display: block;
+	float: left;
+	position: relative;
+	top: 6em;
+	margin-right: 2%;
 }
 
 .question-row{
@@ -263,7 +289,7 @@ header{
 	width: 30%;
 	height: 40%;
 	padding: .3em .2em;
-	background-color: blue;
+	background-color: #07d;
 	display: inline-block;
 	font-size: .6em;
 	color: white;
@@ -355,7 +381,7 @@ header{
 }
 
 .question-title h6{
-	color: blue;
+	color: #07d;
 	font-weight: bold;
 	font-size: .8em;
 	position: absolute;
@@ -369,7 +395,8 @@ header{
 	width: 18%;
 	min-width: 12em;
 	height: 80%;
-	position: absolute;
+	float: right;
+	position: relative;
 	top: 20%;
 	right: 10%;
 	display: block;
@@ -413,7 +440,7 @@ header{
 .rs-middle h6{
 	width: 40%;
 	display: inline-block;
-	color: blue;
+	color: #07d;
 	font-size: .5em;
 	margin: .3em;
 
@@ -422,16 +449,22 @@ header{
 .rs-bottom{
 	width: 100%;
 	height: 35%;
-	border: 3px solid blue;
+	border: 3px solid #07d;
 	position: absolute;
 	top: 65%;
+}
+
+.rs-bottom p{
+	padding: 0em 1em;
+	color: #07d;
+	font-size: .75em;
 }
 
 .rs-bottom-title{
 	width: 100%;
 	height: 30%;
 	min-height: 1.5em;
-	background-color: blue;
+	background-color: #07d;
 }
 
 .rs-bottom-title h4{
@@ -450,10 +483,13 @@ header{
 	.page-container{
 		position: absolute;
 		left: 1em;
+		width: 100%;
 	}
 
 	.right-sidebar{
-		position: absolute;
-		right: 0;
+		float: right;
+		/*position: absolute;*/
+	/*	right: 3em;
+		margin-left: 2em;*/
 	}
 }
