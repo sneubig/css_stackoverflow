@@ -65,7 +65,7 @@ header{
 
 .hd-right{
 	height: 100%;
-	width: 40%;
+	width: 32%;
 	display: inline-block;
 	float: right;
 	position: relative;
@@ -102,12 +102,13 @@ header{
 	background-color: orange;
 	display: inline-block;
 }
+
 .help-button{
 	width: 10%;
 	height: 100%;
 	position: absolute;
 	top: .5em;
-	left: 10em;
+	/*left: 5em;*/
 	display: inline-block;
 }
 
